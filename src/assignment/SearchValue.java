@@ -23,7 +23,7 @@ public class SearchValue {
 			DesiredCapabilities capabilities = null;
 			BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-			System.setProperty("webdriver.chrome.driver", "D:\\Automation_Projects\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
 			capabilities = DesiredCapabilities.chrome();
 			capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 			try {
